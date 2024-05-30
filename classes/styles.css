@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.user-block, .user-details, .post-block, .post-details, .comment-block {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9f9f9;
+}
+
+#users-container, #user-details-container, #post-details-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user-block, .post-block {
+    flex: 1 0 45%;
+    box-sizing: border-box;
+}
+
+.post-block, .comment-block {
+    flex: 1 0 20%;
+    box-sizing: border-box;
+}
+
+.user-details, .post-details {
+    width: 100%;
+}
+
+#posts-btn {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+#posts-btn:hover {
+    background-color: #0056b3;
+}
+
+.comments-container {
+    display: flex;
+    flex-wrap: wrap;
+}
